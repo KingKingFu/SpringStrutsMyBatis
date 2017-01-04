@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
+
+    <package name="user" namespace="/user" extends="struts-default" strict-method-invocation="false">
+
+        <action name="login" class="com.ssm.action.LoginAction" method="login">
+            <result type="dispatcher" name="input">/login.jsp</result>
+        </action>
+
+        <action name="login2" class="com.ssm.action.UserAction" method="fun">
+            <result type="dispatcher" name="input">/index.jsp</result>
+        </action>
+
+    </package>
+
+</struts>

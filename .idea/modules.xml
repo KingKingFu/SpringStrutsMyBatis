@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringStrutsMyBatis.iml" filepath="$PROJECT_DIR$/SpringStrutsMyBatis.iml" />
+      <module fileurl="file://D://SpringStrutsMyBatis/SpringStrutsMyBatis.iml" filepath="D://SpringStrutsMyBatis/SpringStrutsMyBatis.iml" />
+    </modules>
+  </component>
+</project>
